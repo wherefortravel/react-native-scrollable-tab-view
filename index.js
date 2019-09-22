@@ -10,10 +10,10 @@ const {
   ScrollView,
   Platform,
   StyleSheet,
-  ViewPagerAndroid,
   InteractionManager,
 } = ReactNative;
 const TimerMixin = require('react-timer-mixin');
+const ViewPagerAndroid = require('@react-native-community/viewpage');
 
 const SceneComponent = require('./SceneComponent');
 const DefaultTabBar = require('./DefaultTabBar');
